@@ -11,7 +11,6 @@
 // ==/UserScript==
 function toggleTheme(isDarkMode) {
   'use strict';
-
   var meta = document.createElement("meta");
   meta.name = "theme-color";
   const mode = isDarkMode ? "#000000" : "#FFFFFF";
