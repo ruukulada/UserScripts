@@ -9,11 +9,12 @@
 // @license      MIT
 // @grant        none
 // ==/UserScript==
+
 (function () {
     'use strict';
     let mutationTimeout;
  
-    // Function to find and click the "Translate post" button
+    // find and click the "Translate post" button
     const clickTranslateButton = () => {
         const buttons = document.querySelectorAll('button span');
         for (const el of buttons) {
@@ -27,7 +28,7 @@
         }
     };
  
-    // Debounced mutation handler
+    // debounced mutation handler
     const debouncedMutationHandler = () => {
         if (mutationTimeout) clearTimeout(mutationTimeout);
         mutationTimeout = setTimeout(() => {
@@ -35,13 +36,13 @@
         }, 100); // Delay in milliseconds
     };
  
-    // Monitor changes within the main content area
+    // monitor changes within the main content area
     const mainContentArea = document.querySelector('main') || document.body;
     const observer = new MutationObserver(() => debouncedMutationHandler());
  
-    // Start observing the main content area
+    // start observing the main content area
     observer.observe(mainContentArea, { childList: true, subtree: true });
  
-    // Initial check in case the button is already present
+    // initial check in case the button is already present
     clickTranslateButton();
 })();
