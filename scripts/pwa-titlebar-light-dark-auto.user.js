@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto Light/Dark PWA Titlebar
-// @version      1.0
+// @version      1.1
 // @description  Changes titlebar of PWA to be light or dark
 // @author       https://github.com/ruukulada
 // @namespace    https://github.com/ruukulada
