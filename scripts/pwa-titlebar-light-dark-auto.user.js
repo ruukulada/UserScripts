@@ -9,11 +9,17 @@
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
+
 function toggleTheme(isDarkMode) {
+  // create meta element
   'use strict';
   var meta = document.createElement("meta");
   meta.name = "theme-color";
+  
+  // set dark and light titlebar colors here
   const mode = isDarkMode ? "#000000" : "#FFFFFF";
+
+  // prepend color information
   meta.content = mode;
   document.getElementsByTagName("head")[0].prepend(meta);
 }
