@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto Light/Dark PWA Titlebar
-// @version      1.1
+// @version      1.2
 // @description  Changes titlebar of PWA to be light or dark
 // @author       https://github.com/ruukulada
 // @namespace    https://github.com/ruukulada
@@ -11,22 +11,15 @@
 // ==/UserScript==
 
 function toggleTheme(isDarkMode) {
-  // create meta element
   'use strict';
   var meta = document.createElement("meta");
   meta.name = "theme-color";
-  
-  // set dark and light titlebar colors here
   const mode = isDarkMode ? "#000000" : "#FFFFFF";
-
-  // prepend color information
   meta.content = mode;
   document.getElementsByTagName("head")[0].prepend(meta);
 }
-
 const darkMedia = window.matchMedia('(prefers-color-scheme: dark)');
-toggleTheme(darkMedia.matches); // toggle theme when page loaded
-
+toggleTheme(darkMedia.matches);
 darkMedia.addEventListener('change', e => {
-  toggleTheme(e.matches); // toggle theme when system theme changed
+  toggleTheme(e.matches);
 });
