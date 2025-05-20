@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto-Translate Posts on Twitter
-// @version      1.4
-// @description  Automatically clicks the "Translate post" button on X.com posts
+// @version      1.5
+// @description  Automatically clicks the "Translate post" button
 // @author       https://github.com/ruukulada
 // @namespace    https://github.com/ruukulada
 // @match        https://*.x.com/*
