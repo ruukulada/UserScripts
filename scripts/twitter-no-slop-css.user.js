@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Twitter No Slop
+// @name         Twitter No Slop CSS
 // @version      1.0
 // @description  Twitter.
 // @author       https://github.com/ruukulada
