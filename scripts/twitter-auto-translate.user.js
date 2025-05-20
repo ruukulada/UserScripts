@@ -8,8 +8,6 @@
 // @icon         https://abs.twimg.com/favicons/twitter.2.ico
 // @license      MIT
 // @grant        none
-// @downloadURL  https://update.greasyfork.org/scripts/522784/Auto-Translate%20Posts%20on%20Twitter.user.js
-// @updateURL    https://update.greasyfork.org/scripts/522784/Auto-Translate%20Posts%20on%20Twitter.meta.js
 // ==/UserScript==
 
 (function () {
