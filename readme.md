@@ -1,6 +1,6 @@
 **User scripts for various websites**
 
-| UserScript | Direct Link | GreasyFork
+| User Script | Direct Link | GreasyFork
 | --- | --- | --- |
 | Auto Light/Dark PWA Titlebar | [user.js](https://ruukulada.github.io/UserScripts/scripts/pwa-titlebar-light-dark-auto.user.js) | [user.js](https://greasyfork.org/en/scripts/534782-auto-light-dark-pwa-titlebar) |
 | Auto-Translate Posts on Twitter | [user.js](https://ruukulada.github.io/UserScripts/scripts/twitter-auto-translate.user.js) | [user.js](https://greasyfork.org/en/scripts/522784-auto-translate-posts-on-twitter) |
