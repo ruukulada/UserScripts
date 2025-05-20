@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         Twitter No Slop
+// @version      1.0
 // @description  Twitter.
-// @match        https://*.x.com/*
-// @version      1.0.0
 // @author       https://github.com/ruukulada
 // @namespace    https://github.com/ruukulada
+// @match        https://*.x.com/*
+// @icon         https://abs.twimg.com/favicons/twitter.2.ico
+// @license      MIT
+// @grant        none
 // @inject-into  content
 // ==/UserScript==
 
