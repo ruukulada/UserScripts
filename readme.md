@@ -12,5 +12,5 @@
 
 - Twitter No Slop CSS
 
-  [user.js](https://ruukulada.github.io/UserScripts/scripts/twitter-no-slop-css.user.js)
+  [user.js](https://ruukulada.github.io/UserScripts/scripts/twitter-no-slop-css.user.js),
   [GreasyFork](https://greasyfork.org/en/scripts/536556-twitter-no-slop-css)
