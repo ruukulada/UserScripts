@@ -1,4 +1,4 @@
-**User scripts for various websites**
+**User Scripts for various websites**
 
 | User Script | Direct Link | GreasyFork
 | --- | --- | --- |
