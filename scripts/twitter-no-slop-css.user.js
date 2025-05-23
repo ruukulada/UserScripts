@@ -30,6 +30,6 @@
       })
       .catch((error) => console.error(error));
   }
-  const cssUrl = 'https://ruukulada.github.io/CustomCss/src/twitternoslop.css';
+  const cssUrl = 'https://ruukulada.github.io/UserStyles/src/twitternoslop.css';
   loadExternalCSS(cssUrl);
 })();
