@@ -23,14 +23,16 @@
       .then((response) => response.text())
       .then((css) => { injectCSS(css); })
   }
+  const cssUrl = 'https://ruukulada.github.io/UserStyles/src/youtubetheatre.css';
+  loadExternalCSS(cssUrl);
   function applyStyles() {
     const currentUrl = window.location.href;
     if (currentUrl.includes('watch')) {
-      const videoPageCssUrl = 'https://ruukulada.github.io/UserStyles/src/youtubetheatre.css';
-      loadExternalCSS(videoPageCssUrl);
+      const videoPageCss = "div[id=masthead-container] { opacity:0%; } div[id=masthead-container]:hover { opacity:100%; }";
+      injectCSS(videoPageCss);
     }
     else {
-      const homePageCss = "div[id=masthead-container] { opacity: 100%; }";
+      const homePageCss = "div[id=masthead-container] { opacity:100%; }";
       injectCSS(homePageCss);
     }
   }
