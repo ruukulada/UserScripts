@@ -6,3 +6,11 @@
 | Auto-Translate Posts on Twitter | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/twitter-auto-translate.user.js) | [`user.js`](https://greasyfork.org/en/scripts/522784-auto-translate-posts-on-twitter) |
 | Twitter No Slop CSS | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/twitter-no-slop-css.user.js) | [`user.js`](https://greasyfork.org/en/scripts/536556-twitter-no-slop-css) |
 | YouTube Theatre CSS | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/youtube-theatre-css.user.js) | [`user.js`](https://greasyfork.org/en/scripts/537032-youtube-theatre-css) |
+
+
+**External but recommended**
+
+| User Script | GreasyFork
+| --- | --- |
+| Swap x.com copy link | [`user.js`](https://greasyfork.org/en/scripts/479782-swap-x-com-copy-link) |
+| YouTube - Always Theater Mode | [`user.js`](https://greasyfork.org/en/scripts/10523-youtube-always-theater-mode) |
