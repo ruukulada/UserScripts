@@ -22,7 +22,7 @@
   const clickTranslateButton = () => {
     const buttons = document.querySelectorAll('button span');
     for (const el of buttons) {
-      if (el.textContent.trim() === "Translate post") {
+      if (el.textContent.trim() === "Translate post" || el.textContent.trim() === "Show translation") {
         const button = el.closest('button');
         if (button) { button.click(); }
       }
