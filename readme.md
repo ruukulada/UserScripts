@@ -4,6 +4,7 @@
 | --- | --- | --- |
 | Auto Light/Dark PWA Titlebar | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/pwa-titlebar-light-dark-auto.user.js) | [`user.js`](https://greasyfork.org/en/scripts/534782-auto-light-dark-pwa-titlebar) |
 | Auto-Translate Posts on Twitter | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/twitter-auto-translate.user.js) | [`user.js`](https://greasyfork.org/en/scripts/522784-auto-translate-posts-on-twitter) |
+| Google News → Direct Article | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/google-news-no-amp.user.js) | [`user.js`](https://greasyfork.org/en/scripts/564086-google-news-direct-article-no-amp) |
 | Twitter No Slop CSS | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/twitter-no-slop-css.user.js) | [`user.js`](https://greasyfork.org/en/scripts/536556-twitter-no-slop-css) |
 | YouTube Theatre CSS | [`user.js`](https://ruukulada.github.io/UserScripts/scripts/youtube-theatre-css.user.js) | [`user.js`](https://greasyfork.org/en/scripts/537032-youtube-theatre-css) |
 
