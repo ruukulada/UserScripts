@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Google News → Direct Article (No AMP)
-// @version      1.1
+// @version      1.2
 // @description  Automatically navigate to the real article URL shown in Google News
 // @author       https://github.com/ruukulada
 // @namespace    https://github.com/ruukulada
@@ -25,6 +25,6 @@
   const observer = new MutationObserver(tryNavigate);
   observer.observe(document.body, {
     childList: true,
-    subtree: false
+    subtree: true
   });
 })();
